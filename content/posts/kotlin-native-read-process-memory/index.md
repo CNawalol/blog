@@ -82,7 +82,19 @@ depends = posix
 
 ![image-20230812153647319](./assets/image-20230812153647319.png)
 
+## 2. 获取不到进程
 
+原先使用的是 `Process32First` 和 `Process32Next ` 这两个方法去处理 `CreateToolhelp32Snapshot` 在 `Process32First` 的得到的结果为0，正常来讲不应该为0。随后我在YouTrack发了[Issue](https://youtrack.jetbrains.com/issue/KT-60477)
+
+得到的解决办法是更换方法：
+
+- PROCESSENTRY32 -> PROCESSENTRY32W
+
+- *Process32First -> Process32FirstW*
+
+- *Process32Next -> Process32NextW*
+
+  在此感谢帮忙研究问题的这几位朋友
 
 # 参考文章
 
