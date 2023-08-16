@@ -2,3 +2,7 @@ baseURL = "https://blog.awalol.eu.org/"
 languageCode = "zh-cn"
 title = "awalol's Blog"
 theme = "PaperMod"
+[sitemap]
+  changeFreq = 'always'
+  filename = 'sitemap.xml'
+  priority = -1
