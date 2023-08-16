@@ -3,6 +3,6 @@ languageCode = "zh-cn"
 title = "awalol's Blog"
 theme = "PaperMod"
 [sitemap]
-  changeFreq = 'always'
+  changeFreq = ''
   filename = 'sitemap.xml'
   priority = -1
