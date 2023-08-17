@@ -23,6 +23,7 @@ theme = "PaperMod"
 [params]
   ShowCodeCopyButtons = true
   ShowWordCount = true
+  ShowToc = true
 
 [params.homeInfoParams]
   Title = "Hi there 👋"
