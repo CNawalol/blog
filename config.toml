@@ -2,7 +2,35 @@ baseURL = "https://blog.awalol.eu.org/"
 languageCode = "zh-cn"
 title = "awalol's Blog"
 theme = "PaperMod"
+
 [sitemap]
   changeFreq = 'always'
   filename = 'sitemap.xml'
   priority = -1
+
+[[menu.main]]
+  identifier = "archives"
+  name = "Archives"
+  url = "/archives/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
+  weight = 20
+
+[params]
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+
+[params.homeInfoParams]
+  Title = "Hi there 👋"
+  Content = "Like to do fun things"
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/CNawalol"
+
+[taxonomies]
+tag = "tags"

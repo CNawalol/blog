@@ -1,7 +1,9 @@
 ---
-title: "Kotlin Native 读取进程内存"
+title: "Kotlin/Native 读取进程内存"
 date: 2023-08-12T15:09:21+08:00
 draft: false
+summary: "本文介绍了在 Kotlin/Native 中使用内存操作的实践，特别是如何使用 CreateToolhelp32Snapshot 获取进程信息"
+tags: ["kotlin","kotlin/native"]
 ---
 
 # 前言
