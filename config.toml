@@ -4,9 +4,10 @@ title = "awalol's Blog"
 theme = "PaperMod"
 
 [sitemap]
-  changeFreq = 'always'
+  changeFreq = ''
   filename = 'sitemap.xml'
   priority = -1
+<<<<<<< HEAD
 
 [[menu.main]]
   identifier = "archives"
@@ -34,3 +35,5 @@ theme = "PaperMod"
 
 [taxonomies]
 tag = "tags"
+=======
+>>>>>>> d7945b5dc88c11bddd6b294065261f6183239b9b
