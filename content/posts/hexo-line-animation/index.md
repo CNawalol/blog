@@ -2,7 +2,7 @@
 title: "在Hexo中画一条有动画的直线"
 date: 2023-08-17T20:58:49+08:00
 draft: false
-tag: ["html","hexo","css","stylus"]
+tags: ["html","hexo","css","stylus"]
 ---
 
 # Step1: 建立元素
