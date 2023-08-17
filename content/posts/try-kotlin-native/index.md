@@ -2,6 +2,7 @@
 title: "尝试Kotlin/Native"
 date: 2023-08-12T14:36:06+08:00
 draft: false
+tags: ["kotlin"]
 ---
 
 {{< youtube lwFNdphmZbE>}}
