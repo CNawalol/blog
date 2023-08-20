@@ -5,7 +5,7 @@ theme = "PaperMod"
 
 [sitemap]
   changeFreq = ''
-  filename = 'sitemap.xml'
+  filename = 'map.xml'
   priority = -1
 
 [[menu.main]]
